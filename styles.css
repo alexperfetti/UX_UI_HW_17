@@ -1,0 +1,139 @@
+body{
+  margin: 0;
+  width: 90%;
+  background: #ffffff;
+  font-family: Oswald;
+  font-weight: 300;
+}
+
+.container{
+  width: 90%;
+  margin: 0 auto;
+}
+
+header{
+  background: #081B57;
+  height: 60px;
+}
+
+.logo{
+  float: left;
+  height: 20px;
+  padding: 10px 0;
+  align-items: center;
+}
+
+nav{
+  float: right;
+}
+
+nav ul{
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+nav li{
+  display: inline-block;
+  margin-left: 30px;
+  padding-top: 25px;
+  position: relative;
+}
+
+nav a{
+  color:aliceblue;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 14px;
+}
+
+nav a:hover{
+  color: rgb(117, 223, 247);
+}
+
+nav a::before{
+  content: '';
+  display: block;
+  height: 5px;
+  background-color: whitesmoke;
+  position:absolute;
+  top:0;
+  width: 0%;
+  transition: all ease-in-out 250ms;
+}
+
+nav a:hover::before{
+  width: 100%;
+}
+
+.flexbox-container{
+display: flex;
+align-items: center;
+background-image: url(./photos/mountainFade2.png);
+background-size: cover;
+}
+
+.flexbox-item{
+  margin: 10px;
+}
+
+.flexbox-about-me{
+  width: 700px;
+}
+.flexbox-alex-photo{
+float:right;
+}
+h2{
+  font-size: 14pt;
+  font-family: Oswald;
+  font-weight: 600;
+  margin-bottom: -15px;
+  padding-left: 10px;
+}
+
+h1{
+  font-family: Oswald;
+  font-size: 28pt;
+  font-weight: 700;
+  color: #081B57;
+  padding: 10px;
+  margin-bottom: -30px;
+  margin-left: 10px;
+}
+h5{
+  color:aliceblue;
+}
+
+p{
+  font-family: neucha;
+  font-size: 14pt;
+  padding: 10px;
+  margin-bottom: -20pt;
+}
+
+.flexbox-container2{
+  display: flex;
+  background-image: url(./photos/mountainFade1.png);
+  background-size: cover;}
+
+.flexbox-container3{
+  display: flex;
+  background-image: url(./photos/mountainFade2.png);
+  background-size: cover;}
+
+.flexbox-container4{
+  display: flex;
+  background-image: url(./photos/mountainFade1.png);
+  background-size: cover;}
+
+.flexbox-container5{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color:#ffffff;
+  margin-top: 60px;
+  width: 100%;
+  height: 75px;
+  background-color: #081B57;
+  }
